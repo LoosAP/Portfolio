@@ -1,4 +1,5 @@
 import discount from "./Discount.svg";
+import notrobot from "./NotRobot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -16,7 +17,7 @@ import google from "./google.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import logo from "./logo.svg";
-import logo2 from "./logo2.svg";
+import logo2 from "./loosapplogo.svg";
 import menu from "./menu.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
@@ -26,6 +27,7 @@ import robot from "./robot.png";
 import twitter from "./twitter.svg";
 
 export {
+  notrobot,
   logo2,
   airbnb,
   bill,
