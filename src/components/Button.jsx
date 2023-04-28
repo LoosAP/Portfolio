@@ -9,12 +9,14 @@ const Button = ({ styles }) => {
       >
         Get Started
       </button>
-      <button
-        type="button"
-        className={`mt-3 py-4 px-6 bg-pink-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}
-      >
-        Download my cv
-      </button>
+      <a href="../src/assets/Loós András Péter Önéletrajz.pdf" target="_blank">
+        <button
+          type="button"
+          className={`mt-3 py-4 px-6 bg-pink-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}
+        >
+          Download my cv
+        </button>
+      </a>
     </section>
   );
 };
