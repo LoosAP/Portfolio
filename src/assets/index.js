@@ -13,6 +13,7 @@ import close from "./close.svg";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import facebook from "./facebook.svg";
+import github from "./github-mark-white.svg";
 import google from "./google.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
@@ -25,8 +26,8 @@ import people03 from "./people03.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import twitter from "./twitter.svg";
-
 export {
+  github,
   notrobot,
   logo2,
   airbnb,
