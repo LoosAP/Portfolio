@@ -1,4 +1,5 @@
 import discount from "./Discount.svg";
+import me from "./Me.png";
 import notrobot from "./NotRobot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -13,6 +14,7 @@ import close from "./close.svg";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import facebook from "./facebook.svg";
+import figma from "./figma.png";
 import github from "./github-mark-white.svg";
 import google from "./google.svg";
 import instagram from "./instagram.svg";
@@ -24,9 +26,15 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import quotes from "./quotes.svg";
+import react from "./react.png";
 import robot from "./robot.png";
+import tailwind from "./tailwind.png";
 import twitter from "./twitter.svg";
 export {
+  react,
+  tailwind,
+  figma,
+  me,
   github,
   notrobot,
   logo2,

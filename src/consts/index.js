@@ -4,15 +4,18 @@ import {
   coinbase,
   dropbox,
   facebook,
+  figma,
   github,
   instagram,
   linkedin,
   people01,
   people02,
   people03,
+  react,
   send,
   shield,
   star,
+  tailwind,
   twitter,
 } from "../assets";
 
@@ -209,5 +212,22 @@ export const clients = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+export const tools = [
+  {
+    id: "react",
+    logo: react,
+    link: "https://react.dev",
+  },
+  {
+    id: "tailwind",
+    logo: tailwind,
+    link: "https://tailwindcss.com",
+  },
+  {
+    id: "figma",
+    logo: figma,
+    link: "https://www.figma.com",
   },
 ];

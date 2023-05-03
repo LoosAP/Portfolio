@@ -4,7 +4,8 @@ import Button from "./Button";
 const CTA = () => {
   return (
     <section
-      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+      id="CTA"
+      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} md:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
     >
       <div className="flex flex-col flex-1">
         <h2 className={styles.heading2}>Try our service now!</h2>
@@ -15,7 +16,7 @@ const CTA = () => {
           omnis facere recusandae temporibus!
         </p>
       </div>
-      <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+      <div className={`${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10`}>
         <Button />
       </div>
     </section>
