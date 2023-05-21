@@ -1,4 +1,5 @@
 import {
+  email,
   facebook,
   facebookpng,
   figma,
@@ -127,13 +128,13 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    name: "Instagram",
+    name: "Github",
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/loos.andras/",
-    image: instagrampng,
+    icon: github,
+    link: "https://github.com/LoosAP",
+    image: githubpng,
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+      "Looking for my projects? You can find them on Github. Feel free to star them!",
   },
   {
     name: "Facebook",
@@ -142,16 +143,15 @@ export const socialMedia = [
     link: "https://www.facebook.com/kisloosmester111",
     image: facebookpng,
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+      "Messaging me on Facebook is the best way to get in touch with me.",
   },
   {
-    name: "Github",
+    name: "Email",
     id: "social-media-3",
-    icon: github,
-    link: "https://github.com/LoosAP",
-    image: githubpng,
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    icon: "email",
+    link: "mailto:loosandraspeter@gmail.com",
+    image: email,
+    content: "I check my email regularly, so feel free to send me a message.",
   },
   {
     name: "Linkedin",
@@ -159,8 +159,16 @@ export const socialMedia = [
     icon: linkedin,
     link: "https://www.linkedin.com/",
     image: linkedinpng,
+    content: "I'm not very active on Linkedin, but you can find me there too.",
+  },
+  {
+    name: "Instagram",
+    id: "social-media-5",
+    icon: instagram,
+    link: "https://www.instagram.com/loos.andras/",
+    image: instagrampng,
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+      "While I don't post much, you can find me on Instagram. Feel free to follow me!",
   },
 ];
 

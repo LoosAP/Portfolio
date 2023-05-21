@@ -20,6 +20,7 @@ import card from "./card.png";
 import close from "./close.svg";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
+import email from "./email.png";
 import facebook from "./facebook.svg";
 import figma from "./figma.png";
 import github from "./github-mark-white.svg";
@@ -40,6 +41,7 @@ import tailwind from "./tailwind.png";
 import twitter from "./twitter.svg";
 import vite from "./vite.png";
 export {
+  email,
   project1,
   project2,
   at,
