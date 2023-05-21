@@ -9,9 +9,6 @@ import {
   linkedin,
   linkedinpng,
   logo2,
-  people01,
-  people02,
-  people03,
   project1,
   project2,
   react,
@@ -59,33 +56,6 @@ export const projects = [
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     img: project1,
     link: "https://loosap.github.io",
-  },
-];
-
-export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
   },
 ];
 
@@ -216,10 +186,3 @@ export const tools = [
   //   link: "https://www.figma.com",
   // },
 ];
-/*export const projects = [
-  {
-    id: "project_1",
-    img: project_1 ,
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam amet accusamus incidunt excepturi, consequatur dolores, cupiditate molestias impedit esse ut possimus provident facere eligendi. Et dolorum impedit inventore quos officiis!"
-  },
-]*/
