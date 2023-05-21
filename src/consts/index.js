@@ -1,9 +1,13 @@
 import {
   facebook,
+  facebookpng,
   figma,
   github,
+  githubpng,
   instagram,
+  instagrampng,
   linkedin,
+  linkedinpng,
   people01,
   people02,
   people03,
@@ -126,24 +130,40 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
+    name: "Instagram",
     id: "social-media-1",
     icon: instagram,
     link: "https://www.instagram.com/loos.andras/",
+    image: instagrampng,
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },
   {
+    name: "Facebook",
     id: "social-media-2",
     icon: facebook,
     link: "https://www.facebook.com/kisloosmester111",
+    image: facebookpng,
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },
   {
+    name: "Github",
     id: "social-media-3",
     icon: github,
     link: "https://github.com/LoosAP",
+    image: githubpng,
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },
   {
+    name: "Linkedin",
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
+    image: linkedinpng,
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
   },
 ];
 
