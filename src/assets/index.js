@@ -1,4 +1,8 @@
 import discount from "./Discount.svg";
+import facebookpng from "./Facebook.png";
+import githubpng from "./Github.png";
+import instagrampng from "./Instagram.png";
+import linkedinpng from "./Linkedin.png";
 import me from "./Me.jpg";
 import notrobot from "./NotRobot.png";
 import send from "./Send.svg";
@@ -7,6 +11,7 @@ import star from "./Star.svg";
 import airbnb from "./airbnb.png";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
+import at from "./at.svg";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
@@ -33,6 +38,11 @@ import tailwind from "./tailwind.png";
 import twitter from "./twitter.svg";
 import vite from "./vite.png";
 export {
+  at,
+  facebookpng,
+  githubpng,
+  instagrampng,
+  linkedinpng,
   projectsShowcase,
   vite,
   react,
