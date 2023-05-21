@@ -1,18 +1,7 @@
 import React from "react";
-import {
-  Billing,
-  Business,
-  CTA,
-  CardDeal,
-  Clients,
-  Footer,
-  Hero,
-  Navbar,
-  Stats,
-  Testimonials,
-} from "../components";
+import { CTA, Hero, Tools, WhoAmI } from "../components";
 import styles from "../style";
-import Tools from "./Tools";
+import ToMyProjects from "./ToMyProjects";
 
 const Home = () => {
   return (
@@ -24,15 +13,9 @@ const Home = () => {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          {/*
-           <Stats />
-          <Business />
-           
-          <Billing />
-           
-           */}
-          <CardDeal />
-          <Testimonials />
+          <WhoAmI />
+          <ToMyProjects />
+
           <Tools />
           <CTA />
         </div>

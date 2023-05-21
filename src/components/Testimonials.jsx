@@ -11,7 +11,6 @@ const Testimonials = () => {
     >
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient " />
 
-      <div />
       <div className="flex flex-col items-center justify-between w-full md:flex-row">
         <h1 className={styles.heading2}>
           What people say <br className="hidden sm:block" /> about me

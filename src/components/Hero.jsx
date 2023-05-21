@@ -1,7 +1,7 @@
 import React from "react";
 import { discount, me } from "../assets";
 import styles from "../style";
-import GetStarted from "./GetStarted";
+import GetInContact from "./GetInContact";
 
 const Hero = () => {
   return (
@@ -20,35 +20,37 @@ const Hero = () => {
           </h1>
 
           <div className="hidden mr-0 ss:flex md:mr-4">
-            <GetStarted />
+            <GetInContact />
           </div>
         </div>
         <h1 className=" font-poppins font-semibold ss:text-[62px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
-          Of Webdesign
+          Of Webdev
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illum
-          doloremque aliquid laboriosam sapiente aut ut dignissimos mollitia,
-          sint facilis adipisci, commodi est a modi natus facere temporibus id
-          ea.
+          I'm a 22 year old web developer from Hungary. I have been taking
+          coding seriously for 3 years now and I'm looking for a job as a junior
+          web developer. I'm a fast learner and I'm always open to new
+          opportunities and projects. Come and look around on my website and if
+          you like what you see, feel free to contact me!
         </p>
       </div>
 
       <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+        className={`flex-1 flex ${styles.flexCenter} md:mx-0 mx-7 md:my-0 my-10 relative pink-gradient`}
       >
+        <div className="animate-pulse bg-gradient-to-r from-[#9f8be8] w-[100%] h-[100%] z-[2] absolute px-1 py-1 to-[#ff99b6] rounded-[10%] justify-between items-center"></div>
         <img
           src={me}
-          alt="billing"
-          className="w-[100%] h-[100%] relative z-[5]"
+          alt="Me"
+          className="w-[100%] h-[100%] relative px-1 py-1 z-[5] rounded-[10%]"
         />
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+        <div className="absolute z-[0] w-[90%] h-[35%] top-0 pink__gradient" />
+        <div className="absolute z-[1] w-[110%] h-[80%] rounded-full bottom-40 white__gradient" />
+        <div className="absolute z-[0] w-[50%] h-[70%] right-20 bottom-20 blue__gradient" />
       </div>
 
       <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
+        <GetInContact />
       </div>
     </section>
   );
