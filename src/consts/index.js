@@ -8,9 +8,12 @@ import {
   instagrampng,
   linkedin,
   linkedinpng,
+  logo2,
   people01,
   people02,
   people03,
+  project1,
+  project2,
   react,
   tailwind,
   vite,
@@ -32,6 +35,30 @@ export const navLinks = [
     id: "contact",
     route: "contact",
     title: "Contact",
+  },
+];
+
+export const projects = [
+  {
+    id: "project-1",
+    title: "Article Summarizer",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    img: project2,
+    link: "https://summarizer.loosapp.com",
+  },
+  {
+    id: "project-2",
+    title: "Portfolio Website",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    img: logo2,
+    link: "https://loosapp.com",
+  },
+  {
+    id: "project-3",
+    title: "Windows 98 Clone",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    img: project1,
+    link: "https://loosap.github.io",
   },
 ];
 
