@@ -1,5 +1,5 @@
 import discount from "./Discount.svg";
-import me from "./Me.png";
+import me from "./Me.jpg";
 import notrobot from "./NotRobot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -25,12 +25,16 @@ import menu from "./menu.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import projectsShowcase from "./projectsShowcase.png";
 import quotes from "./quotes.svg";
 import react from "./react.png";
 import robot from "./robot.png";
 import tailwind from "./tailwind.png";
 import twitter from "./twitter.svg";
+import vite from "./vite.png";
 export {
+  projectsShowcase,
+  vite,
   react,
   tailwind,
   figma,
