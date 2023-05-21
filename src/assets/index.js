@@ -5,6 +5,8 @@ import instagrampng from "./Instagram.png";
 import linkedinpng from "./Linkedin.png";
 import me from "./Me.jpg";
 import notrobot from "./NotRobot.png";
+import project1 from "./Project1.png";
+import project2 from "./Project2.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -38,6 +40,8 @@ import tailwind from "./tailwind.png";
 import twitter from "./twitter.svg";
 import vite from "./vite.png";
 export {
+  project1,
+  project2,
   at,
   facebookpng,
   githubpng,
