@@ -8,9 +8,7 @@ import {
   people02,
   people03,
   react,
-
   tailwind,
-
   vite,
 } from "../assets";
 
@@ -31,9 +29,6 @@ export const navLinks = [
     route: "contact",
     title: "Contact",
   },
-];
-
-
 ];
 
 export const feedback = [
@@ -151,7 +146,6 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
-
 
 export const tools = [
   {
