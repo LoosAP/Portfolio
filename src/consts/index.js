@@ -17,24 +17,25 @@ import {
   star,
   tailwind,
   twitter,
+  vite,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
+    route: "",
     title: "Home",
   },
+
   {
-    id: "features",
-    title: "Features",
+    id: "projects",
+    route: "projects",
+    title: "Projects",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
+    id: "contact",
+    route: "contact",
+    title: "Contact",
   },
 ];
 
@@ -226,8 +227,20 @@ export const tools = [
     link: "https://tailwindcss.com",
   },
   {
-    id: "figma",
-    logo: figma,
-    link: "https://www.figma.com",
+    id: "vite",
+    logo: vite,
+    link: "https://vitejs.dev",
   },
+  // {
+  //   id: "figma",
+  //   logo: figma,
+  //   link: "https://www.figma.com",
+  // },
 ];
+/*export const projects = [
+  {
+    id: "project_1",
+    img: project_1 ,
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam amet accusamus incidunt excepturi, consequatur dolores, cupiditate molestias impedit esse ut possimus provident facere eligendi. Et dolorum impedit inventore quos officiis!"
+  },
+]*/
