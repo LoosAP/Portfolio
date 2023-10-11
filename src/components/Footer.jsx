@@ -17,7 +17,7 @@ const Footer = () => {
             Lóerővel a tökéletes webdizájnért
           </p>
         </div>
-        <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+        <div className="flex-[1.5] w-full flex flex-row justify-evenly flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerLink) => (
             <div
               key={footerLink.key}
@@ -28,14 +28,16 @@ const Footer = () => {
               </h4>
               <ul className="mt-4 list-none">
                 {footerLink.links.map((link, index) => (
-                  <li
-                    key={link.name}
-                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
-                      index !== footerLink.links.length - 1 ? "mb-4" : "mb-0"
-                    }`}
-                  >
-                    {link.name}
-                  </li>
+                  <a href={link.link} target="_blank">
+                    <li
+                      key={link.name}
+                      className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                        index !== footerLink.links.length - 1 ? "mb-4" : "mb-0"
+                      }`}
+                    >
+                      {link.name}
+                    </li>
+                  </a>
                 ))}
               </ul>
             </div>
@@ -48,12 +50,12 @@ const Footer = () => {
         </p>
         <div className="flex flex-row mt-6 md:mt-0">
           {socialMedia.map((social, index) => (
-            <a href={social.link} target="_blank">
-              <img
+            <a href={social.link} className="inline-block" target="_blank">
+              <embed
                 key={social.id}
                 src={social.icon}
                 alt={social.id}
-                className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+                className={`w-[21px] h-[21px] object-contain cursor-pointer pointer-events-none ${
                   index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
                 }`}
               />

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 import { close, logo, logo2, menu } from "../assets";
 import { navLinks } from "../consts";
 
@@ -16,12 +16,12 @@ const Navbar = () => {
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
           >
-            <a href={`/${nav.route}`}>{nav.title}</a>
+            <Link to={`/${nav.route}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
 
-      <div className="flex items-center justify-end flex-1 sm:hidden">
+      <div className="flex items-center justify-end flex-1 sm:hidden z-[2]">
         <img
           src={toggle ? close : menu}
           alt="menu"
@@ -41,7 +41,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? "mb-0" : "mb-4"
                 }`}
               >
-                <a href={`/${nav.route}`}>{nav.title}</a>
+                <Link to={`/${nav.route}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>

@@ -7,6 +7,7 @@ import me from "./Me.jpg";
 import notrobot from "./NotRobot.png";
 import project1 from "./Project1.png";
 import project2 from "./Project2.png";
+import project4 from "./Project4.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -20,7 +21,8 @@ import card from "./card.png";
 import close from "./close.svg";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import email from "./email.png";
+import emailpng from "./email.png";
+import email from "./email.svg";
 import facebook from "./facebook.svg";
 import figma from "./figma.png";
 import github from "./github-mark-white.svg";
@@ -41,46 +43,48 @@ import tailwind from "./tailwind.png";
 import twitter from "./twitter.svg";
 import vite from "./vite.png";
 export {
-  email,
-  project1,
-  project2,
-  at,
-  facebookpng,
-  githubpng,
-  instagrampng,
-  linkedinpng,
-  projectsShowcase,
-  vite,
-  react,
-  tailwind,
-  figma,
-  me,
-  github,
-  notrobot,
-  logo2,
   airbnb,
+  apple,
+  arrowUp,
+  at,
   bill,
   binance,
   card,
+  close,
   coinbase,
+  discount,
   dropbox,
+  email,
+  emailpng,
+  facebook,
+  facebookpng,
+  figma,
+  github,
+  githubpng,
+  google,
+  instagram,
+  instagrampng,
+  linkedin,
+  linkedinpng,
   logo,
+  logo2,
+  me,
+  menu,
+  notrobot,
+  people01,
+  people02,
+  people03,
+  project1,
+  project2,
+  project4,
+  projectsShowcase,
   quotes,
+  react,
   robot,
   send,
   shield,
   star,
-  menu,
-  close,
-  google,
-  apple,
-  arrowUp,
-  discount,
-  facebook,
-  instagram,
-  linkedin,
+  tailwind,
   twitter,
-  people01,
-  people02,
-  people03,
+  vite,
 };

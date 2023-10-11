@@ -16,7 +16,12 @@ const Projects = () => {
       </div>
       <div className="flex flex-col items-center justify-center">
         {projects.map((project, index) => (
-          <ProjectShowcase key={project.id} {...project} index={index} />
+          <ProjectShowcase
+            id={project.id}
+            key={project.id}
+            {...project}
+            index={index}
+          />
         ))}
       </div>
     </section>
