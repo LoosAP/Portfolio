@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { close, logo, logo2, menu } from "../assets";
+import { close, logo2, menu } from "../assets";
 import { navLinks } from "../consts";
 
 const Navbar = () => {
