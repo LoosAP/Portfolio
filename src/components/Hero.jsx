@@ -1,5 +1,5 @@
 import React from "react";
-import { discount, me } from "../assets";
+import { me } from "../assets";
 import styles from "../style";
 import GetInContact from "./GetInContact";
 
