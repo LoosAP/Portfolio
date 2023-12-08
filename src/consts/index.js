@@ -40,6 +40,14 @@ export const navLinks = [
 
 export const projects = [
   {
+    id: "project-5",
+    title: "Lunch Ordering App",
+    description:
+      "During my 8 week work experience at Alföldi Printing House, I was tasked with developing a website that would enable the employees to order lunch, and for the vendors to check the orders and update the menu. I used NextJS for the frontend, NodeJS for the backend. I also used PocketBase for the database, and TailwindCSS, and Radix-UI for styling. Authentication is handled through cookies. Email services were solved with Resend. Hosting a showcase is a bit difficult, since it's a private app, but you can check out the code on Github.",
+    img: project4,
+    link: "https://github.com/LoosAP/Ebed-nextjs-pocketbase",
+  },
+  {
     id: "project-4",
     title: "Lunch Ordering App",
     description:
