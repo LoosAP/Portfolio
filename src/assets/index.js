@@ -19,6 +19,7 @@ import figma from "./figma.png";
 import github from "./github-mark-white.svg";
 import google from "./google.svg";
 import instagram from "./instagram.svg";
+import kaloriamano from "./kaloriamano.png";
 import linkedin from "./linkedin.svg";
 import logo2 from "./loosapplogo.svg";
 import menu from "./menu.svg";
@@ -42,6 +43,7 @@ export {
   google,
   instagram,
   instagrampng,
+  kaloriamano,
   linkedin,
   linkedinpng,
   logo2,

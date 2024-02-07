@@ -8,6 +8,7 @@ import {
   githubpng,
   instagram,
   instagrampng,
+  kaloriamano,
   linkedin,
   linkedinpng,
   logo2,
@@ -40,23 +41,23 @@ export const navLinks = [
 
 export const projects = [
   {
-    id: "project-5",
-    title: "Lunch Ordering App",
-    description:
-      "During my 8 week work experience at Alföldi Printing House, I was tasked with developing a website that would enable the employees to order lunch, and for the vendors to check the orders and update the menu. I used NextJS for the frontend, NodeJS for the backend. I also used PocketBase for the database, and TailwindCSS, and Radix-UI for styling. Authentication is handled through cookies. Email services were solved with Resend. Hosting a showcase is a bit difficult, since it's a private app, but you can check out the code on Github.",
-    img: project4,
-    link: "https://github.com/LoosAP/Ebed-nextjs-pocketbase",
-  },
-  {
     id: "project-4",
-    title: "Lunch Ordering App",
+    title: "Kalóriamanók",
     description:
-      "During my 8 week work experience at Alföldi Printing House, I was tasked with developing a website that would enable the employees to order lunch, and for the vendors to check the orders and update the menu. I used NextJS for the frontend, NodeJS for the backend. I also used PocketBase for the database, and TailwindCSS, and Radix-UI for styling. Authentication is handled through cookies. Email services were solved with Resend. Hosting a showcase is a bit difficult, since it's a private app, but you can check out the code on Github.",
-    img: project4,
-    link: "https://github.com/LoosAP/Ebed-nextjs-pocketbase",
+      "Kalóriamanók, or Calorie Elves in English, is a web app that i made in collaboration with my fellow university students for out assignment project. It's a nutrition calculator, that takes in your food item, and give you the nutritional value of said food item with the help of CalorieNinja. It's built with React and TailwindCSS. You can check out the code on Github.",
+    img: kaloriamano,
+    link: "https://kaloriamano.loosapp.com/",
   },
   {
     id: "project-3",
+    title: "Lunch Ordering App",
+    description:
+      "During my 8 week work experience at Alföldi Printing House, I was tasked with developing a website that would enable the employees to order lunch, and for the vendors to check the orders and update the menu. I used NextJS for the frontend, NodeJS for the backend. I also used PocketBase for the database, and TailwindCSS, and Radix-UI for styling. Authentication is handled through cookies. Email services were solved with Resend. Hosting a showcase is a bit difficult, since it's a private app, but you can check out the code on Github.",
+    img: project4,
+    link: "https://github.com/LoosAP/Ebed-nextjs-pocketbase",
+  },
+  {
+    id: "project-2",
     title: "Article Summarizer",
     description:
       "This is a project I made in preparation for my thesis. It's a web app that summarizes articles. It's built with React and TailwindCSS, and Redux for state management. AI really interests me, so I'm planning to add more features to this app in the future, or make similar apps.",
@@ -64,20 +65,12 @@ export const projects = [
     link: "https://summarizer.loosapp.com",
   },
   {
-    id: "project-2",
+    id: "project-1",
     title: "Portfolio Website",
     description:
       "I felt like putting this here too, since I'm quite proud of it. I learned a lot about self hosting through the process of making this website. It's built with React and TailwindCSS, and it's hosted on my Raspberry Pi. I'm planning to add more features to this website in the future, so stay tuned! ",
     img: logo2,
     link: "https://loosapp.com",
-  },
-  {
-    id: "project-1",
-    title: "Windows 98 Clone",
-    description:
-      "This is quite an old project from the time I was learning HTML and CSS. I felt like including it in my projects, since it gives a good idea of how far I've come, and to what extent I've improved. It also gives some insight to my love for retro tech. It's a clone of Windows 98, and it's built with HTML and CSS and a bit of JavaScript. ",
-    img: project1,
-    link: "https://loosap.github.io",
   },
 ];
 
