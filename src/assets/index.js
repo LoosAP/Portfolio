@@ -2,7 +2,7 @@ import facebookpng from "./Facebook.png";
 import githubpng from "./Github.png";
 import instagrampng from "./Instagram.png";
 import linkedinpng from "./Linkedin.png";
-import me from "./Me.jpg";
+import me from "./Me.webp";
 import project1 from "./Project1.png";
 import project2 from "./Project2.png";
 import project4 from "./Project4.png";
